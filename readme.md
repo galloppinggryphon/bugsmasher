@@ -4,6 +4,8 @@ A simple game created for a Javascript class at Centennial College.
 
 ![Screenshot of the title screen of Bugsmasher, showing a large yellow bumblebee, the title of the game, and a play button.](bugsmasher_title_screen.png)
 
+🚀 [Click here to play the game](https://galloppinggryphon.github.io/bugsmasher/)
+
 ## Main Features
 
 * The bug hops randomly around the game area at a given interval
