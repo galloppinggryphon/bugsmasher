@@ -1,7 +1,7 @@
 import Canvas from './canvas.js'
 import { delay, importJson, logIncrement } from './utils.js'
 
-const options = importJson( '../settings.json' )
+const options = importJson( 'settings.json' )
 // const log = console.log.bind( console )
 
 /** @type {Record<string, Partial<{outline: boolean, noFill: boolean} & Pick<CanvasRenderingContext2D, "fillStyle" | "lineCap" | "lineWidth" | "strokeStyle" | "shadowColor" | "shadowBlur" | "shadowOffsetX" | "shadowOffsetY" | "font" | "textAlign" | "textBaseline">>>} */
