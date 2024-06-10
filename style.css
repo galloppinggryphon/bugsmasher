@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap'); */
+
+html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 66.7%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: rgb(94, 130, 40);
+    overflow:hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+button,
+select,
+input {
+    padding: 8px 15px;
+    border: 0 none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(235, 221, 126);
+    transition: all ease-in-out 200ms;
+}
+
+button:not(:disabled ):hover {
+    background-color: #4a5ab4;
+    color: white;
+}
+
+button:not(:disabled ):active {
+    background-color: #b44a8b;
+    color: white;
+}
+
+input, select {
+    border: 2px solid transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+input:focus, select:focus {
+    background-color: white;
+}
+
+
+.validation-check input:invalid, .validation-check select:invalid {
+    background-color: rgba(221,147,148,0.2);
+    border: 2px solid red;
+}
+
+
+footer {
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.8em;
+}
+
+hr {
+    border-top: 0 none;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+}
+
+.grid>div {
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 40px 0;
+}

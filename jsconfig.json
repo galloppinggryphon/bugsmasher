@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "skipLibCheck": false,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "lib": ["ESNext", "dom"],
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "noErrorTruncation": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false
+  },
+  "include": ["**/*.js", "**/*.ts"]
+}

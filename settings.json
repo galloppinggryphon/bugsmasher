@@ -1,0 +1,7 @@
+{
+  "bugScaleFactor": 0.08,
+  "baseInterval": 2000,
+  "speedStep": 100,
+  "maxRounds": 100,
+  "maxMisses": 30
+}

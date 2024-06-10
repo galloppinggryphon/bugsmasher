@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      Name: BugSmasher - A Canvas Adventure
+      Author: Bjornar Egede-Nissen
+      Date: ____/07/2023
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>BugSmasher: A Canvas Adventure</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" />
+   <script src="js/main.js" type="module" defer></script>
+</head>
+
+<body>
+   <div style="position: absolute; opacity: 0; font-family: Eater;" aria-hidden="true">
+      Invisible font-loader - enables canvas to use external font
+   </div>
+   <main style="display: flex; flex-direction: column; overflow: visible;">
+      <div id="game-container" style="height: 100vh;">
+         <canvas>
+            Your browser is not supported - please upgrade to a modern version of Firefox, Chromium or Safari.
+         </canvas>
+      </div>
+   </main>
+   <pre id="dbg" style="font-size: 16px;">
+      <!-- &copy; Bjornar Egede-Nissen 2023 -->
+   </pre>
+   <small>
+      &copy; Bjornar Egede-Nissen 2023
+   </small>
+</body>
+</html>
